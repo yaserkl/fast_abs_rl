@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 root_dir=$1
-dirs=($root_dir/*/)
+dirs=($root_dir/*v2*/)
 
 for dir in "${dirs[@]}"
 do
